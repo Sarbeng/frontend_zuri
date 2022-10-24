@@ -3,68 +3,44 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --gray-500 : #667085;
+  --gray-200: #EAECF0;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.footer{
+  height: 160px;
+  padding: 80px 48px;
+  /* border: black solid; */
 }
 
-body {
-  margin: 0;
+.footer-items{
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  border-top: #EAECF0 solid;
+  border-top-width: 1px;
+  align-items: center;
+  height: 64px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.footer-right{
+  max-width:132.13px;
+  margin-left: auto;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.footer-left{
+  margin-right: auto;
+  max-width:187.59pxpx;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+.footer-mid{
+  font-size: 1rem;
+  color: var(--gray-500);
+
+}
+
+@media screen and (max-width:600px) {
+  .footer-items{
+    display: none;
   }
 }
