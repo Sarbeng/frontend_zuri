@@ -1,0 +1,9 @@
+import React from "react";
+
+export default function Profile(){
+    return(
+        <div>
+            Profiles go here
+        </div>
+    )
+}
