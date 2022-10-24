@@ -1,6 +1,6 @@
 # frontend_zuri
 
-## to run
+## How to run
  first write 
 
  > - npm install
