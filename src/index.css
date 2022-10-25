@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -36,6 +36,37 @@
 .footer-mid{
   font-size: 1rem;
   color: var(--gray-500);
+
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img{
+  width: 88px;
+  height: 88px;
+  /* border: #667085 solid; */
+  border-radius: 275px;
+  background-image: url('./assets/web_default.png');
+  margin-bottom: 24px;
+}
+
+.profile-img:hover{
+  background-image: url('./assets/web_hover.png');
+}
+
+.profile-img:focus{
+  background-image: url('./assets/web_focus.png');
+}
+
+.profile-name{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
 
 }
 
