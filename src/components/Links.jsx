@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Links(){
+export default function Links(props){
     return(
         <div>
-            Links go here
+            <a href={props.item.url}>{props.item.title}</a>
         </div>
     )
 }
