@@ -2,8 +2,8 @@ export default [
     {
         id: 1,
         title: "Twitter Link",
-        url:"",
-        css_id:""
+        url:"https://twitter.com/baafi_sarbeng",
+        css_id:"btn_twitter"
 
     },
     {

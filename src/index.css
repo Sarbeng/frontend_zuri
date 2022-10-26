@@ -70,8 +70,27 @@
 
 }
 
+.socials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline;
+
+}
+
+.socials img{
+  display: inline;
+  margin:26px ;
+}
+
+
+
 @media screen and (max-width:600px) {
   .footer-items{
+    display: none;
+  }
+
+  .socials{
     display: none;
   }
 }

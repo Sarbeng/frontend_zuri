@@ -6,6 +6,7 @@ import Profile from  './components/Profile'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import data from "./data"
+import Socials from './components/Socials'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <Header />
       <Profile />
       {links}
+      <Socials />
       <Footer />
     </div>
   )
