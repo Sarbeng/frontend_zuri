@@ -6,7 +6,7 @@ export default function Socials() {
     return (
         <div className="socials">
             <a href=""><img src={slack} alt="" /></a>
-            <a href=""><img src={github} alt="" /></a>
+            <a href="https://github.com/Sarbeng"><img src={github} alt="" /></a>
         </div>
     )
 }

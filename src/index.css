@@ -5,6 +5,7 @@
   font-weight: 400;
   --gray-500 : #667085;
   --gray-200: #EAECF0;
+  --gray-900: #101828;
 }
 
 .footer{
@@ -83,6 +84,17 @@
   margin:26px ;
 }
 
+.btn-links{
+  background-color: #EAECF0;
+  color: var(--gray-900);
+  height: 76px;
+  width: 1152px;
+  margin: 24px 0px;
+  border: 1px solid #EAECF0;
+border-radius: 8px;
+padding: 24px 32px;
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -92,5 +104,10 @@
 
   .socials{
     display: none;
+  }
+
+  .btn-links{
+    width: 343px;
+    height: 68px;
   }
 }
