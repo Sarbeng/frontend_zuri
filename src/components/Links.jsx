@@ -3,7 +3,7 @@ import React from "react";
 export default function Links(props){
     return(
         <div>
-            <a href={props.item.url}>{props.item.title}</a>
+            <a href={props.item.url} className={props.item.css_id}>{props.item.title}</a>
         </div>
     )
 }
